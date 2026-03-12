@@ -1,5 +1,5 @@
 import founderSai from "../assets/founder-sai.svg";
-import founderVasu from "../assets/founder-vasu.svg";
+import vasp from "../assets/vasp.jpg";
 
 export const founders = [
   {
@@ -11,7 +11,7 @@ export const founders = [
   {
     name: "Vasupriya Patnaik Balivada",
     role: "Co-Founder",
-    image: founderVasu,
+    image: vasp,
     note: "Focuses on partnerships, student outreach, and building tourism pathways around artisan-led experiences."
   }
 ];
