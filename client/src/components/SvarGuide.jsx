@@ -208,7 +208,7 @@ export default function SvarGuide() {
             </button>
           </div>
 
-          <p className="rounded-2xl bg-[#fffaf5] px-4 py-3 text-sm leading-6 text-ink/78">{uiCopy.prompt}</p>
+          <p className="rounded-2xl bg-[#FEFAF5] px-4 py-3 text-sm leading-6 text-ink/78">{uiCopy.prompt}</p>
 
           <div className="mt-3 space-y-3">
             <div className="rounded-2xl bg-white px-4 py-3 shadow-sm">
