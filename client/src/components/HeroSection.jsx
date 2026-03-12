@@ -28,13 +28,13 @@ export default function HeroSection() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               to="/explore"
-              className="rounded-full bg-terracotta px-6 py-3 text-sm font-bold text-white shadow-lg shadow-terracotta/30 transition hover:-translate-y-0.5"
+              className="rounded-full bg-gradient-to-r from-terracotta to-[#F07828] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-terracotta/40 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-terracotta/50"
             >
               {text("Explore Crafts", "కళలను చూడండి")}
             </Link>
             <Link
               to="/workshops"
-              className="rounded-full border border-indigo/20 bg-white px-6 py-3 text-sm font-bold text-indigo transition hover:border-terracotta hover:text-terracotta"
+              className="rounded-full border-2 border-indigo bg-white px-6 py-3 text-sm font-bold text-indigo transition hover:border-terracotta hover:text-terracotta hover:bg-terracotta/5"
             >
               {text("Book Workshop", "వర్క్‌షాప్ బుక్ చేయండి")}
             </Link>
@@ -42,7 +42,7 @@ export default function HeroSection() {
         </div>
 
         <div className="mesh-border card-surface relative rounded-[2rem] p-5">
-          <div className="rounded-[1.75rem] bg-[linear-gradient(135deg,#1E3A5F_0%,#335C81_42%,#C46A3C_100%)] p-6 text-sand">
+          <div className="rounded-[1.75rem] bg-[linear-gradient(135deg,#0D3B66_0%,#0D4975_42%,#E8540D_100%)] p-6 text-sand">
             <div className="grid gap-4 md:grid-cols-2">
               <div className="rounded-[1.5rem] bg-white/10 p-5">
                 <p className="text-xs uppercase tracking-[0.28em] text-gold">{text("Mission", "లక్ష్యం")}</p>
