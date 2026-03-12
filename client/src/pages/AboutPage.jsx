@@ -98,7 +98,7 @@ export default function AboutPage() {
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           {founders.map((founder) => (
             <article key={founder.name} className="mesh-border card-surface rounded-[2rem] p-6">
-              <img src={founder.image} alt={founder.name} className="h-72 w-full rounded-[1.5rem] object-cover" />
+              <img src={founder.image} alt={founder.name} className="h-72 w-full rounded-[1.5rem] object-contain" />
               <p className="mt-5 text-sm font-bold uppercase tracking-[0.22em] text-terracotta">{text(founder.role, founder.role === "Founder" ? "స్థాపకురాలు" : "సహ-స్థాపకురాలు")}</p>
               <h3 className="mt-2 font-display text-3xl font-bold text-indigo">{founder.name}</h3>
               <p className="mt-4 text-base leading-8 text-ink/75">{getFounderNote(founder, language)}</p>
