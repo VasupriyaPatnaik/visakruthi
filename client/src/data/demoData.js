@@ -30,14 +30,19 @@ export const demoArtisans = [
       email: "lalitha@visakruthi.demo"
     },
     coords: { lat: 17.4964, lng: 82.7756 },
+    authenticity: {
+      code: "VISA-ETI-2026-LD01",
+      origin: "Etikoppaka, Anakapalli district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     experienceTag: "Family-friendly lacquer toy workshop",
     featured: true,
     gallery: [
-      "https://images.unsplash.com/photo-1517816428104-797678c7cf0e?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/3715768/pexels-photo-3715768.jpeg?auto=compress&cs=tinysrgb&w=900",
       "https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80"
     ],
-    reels: [{ title: "Toy finishing reel", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" }]
+    reels: [{ title: "Toy finishing reel", url: "https://www.youtube.com/embed/v8aIb6fwzPw" }]
   },
   {
     id: "broom-satyam",
@@ -52,14 +57,19 @@ export const demoArtisans = [
       email: "satyam@visakruthi.demo"
     },
     coords: { lat: 17.8146, lng: 83.2167 },
+    authenticity: {
+      code: "VISA-CHP-2026-SA02",
+      origin: "Pendurthi, Visakhapatnam, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     experienceTag: "Rural utility craft demonstration",
     featured: true,
     gallery: [
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=80",
+      "https://i.ytimg.com/vi/siGvGxy8E7g/hqdefault.jpg",
       "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80"
     ],
-    reels: [{ title: "Cheepuru tying reel", url: "https://www.youtube.com/embed/aqz-KE-bpKQ" }]
+    reels: [{ title: "Cheepuru tying reel", url: "https://www.youtube.com/embed/tbJaVcRD7jE" }]
   },
   {
     id: "bamboo-jagannadha",
@@ -74,14 +84,19 @@ export const demoArtisans = [
       email: "jagannadha@visakruthi.demo"
     },
     coords: { lat: 18.3274, lng: 82.8808 },
+    authenticity: {
+      code: "VISA-BMB-2026-JR03",
+      origin: "Araku Valley, Alluri Sitharama Raju district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     experienceTag: "Eco-design weaving workshop",
     featured: true,
     gallery: [
-      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/4654851/pexels-photo-4654851.jpeg?auto=compress&cs=tinysrgb&w=900",
       "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80"
     ],
-    reels: [{ title: "Bamboo basket rim reel", url: "https://www.youtube.com/embed/jNQXAC9IVRw" }]
+    reels: [{ title: "Bamboo basket rim reel", url: "https://www.youtube.com/embed/qgoszqAj1ag" }]
   },
   {
     id: "tribal-sirisha",
@@ -96,14 +111,19 @@ export const demoArtisans = [
       email: "sirisha@visakruthi.demo"
     },
     coords: { lat: 17.9285, lng: 82.6036 },
+    authenticity: {
+      code: "VISA-TRB-2026-SK04",
+      origin: "Paderu, Alluri Sitharama Raju district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     experienceTag: "Collective story circle",
     featured: false,
     gallery: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/4721355/pexels-photo-4721355.jpeg?auto=compress&cs=tinysrgb&w=900",
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
     ],
-    reels: [{ title: "Collective storytelling reel", url: "https://www.youtube.com/embed/ysz5S6PUM-U" }]
+    reels: [{ title: "Collective storytelling reel", url: "https://www.youtube.com/embed/BrdtjmRDNiE" }]
   }
 ];
 
@@ -130,7 +150,7 @@ export const workshopCategoriesData = [
     details:
       "Visitors explore the making process behind iconic Etikoppaka toys, from shaping the wood to applying natural lac finishes and understanding the storytelling behind each object.",
     people: ["Lalitha Devi", "Family lacquer artisans"],
-    video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    video: "https://www.youtube.com/embed/v8aIb6fwzPw",
     image: "https://images.unsplash.com/photo-1517816428104-797678c7cf0e?auto=format&fit=crop&w=1200&q=80",
     availability: ["Weekdays 10 AM - 1 PM", "Saturday cultural sessions", "Advance booking recommended"]
   },
@@ -141,7 +161,7 @@ export const workshopCategoriesData = [
     details:
       "This category introduces the full process of making cheepuru brooms, including material preparation, tying, shaping, and the role of utility craft in regional livelihoods.",
     people: ["Satyam Apparao", "Community broom makers"],
-    video: "https://www.youtube.com/embed/aqz-KE-bpKQ",
+    video: "https://www.youtube.com/embed/tbJaVcRD7jE",
     image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1200&q=80",
     availability: ["Morning batch for visitors", "School groups by request", "Seasonal live demonstrations"]
   },
@@ -152,7 +172,7 @@ export const workshopCategoriesData = [
     details:
       "Participants learn how bamboo is split, softened, woven, and finished into baskets, lighting, and functional decor grounded in local making traditions.",
     people: ["Jagannadha Rao", "Regional bamboo artisans"],
-    video: "https://www.youtube.com/embed/jNQXAC9IVRw",
+    video: "https://www.youtube.com/embed/qgoszqAj1ag",
     image: "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=80",
     availability: ["Araku trail sessions", "Weekend weaving workshops", "Group visits welcome"]
   },
@@ -163,7 +183,7 @@ export const workshopCategoriesData = [
     details:
       "Sessions in this category combine object-making, symbolism, and oral storytelling to present tribal artistry as both heritage and living practice.",
     people: ["Sirisha Korra", "Women-led artisan collective"],
-    video: "https://www.youtube.com/embed/ysz5S6PUM-U",
+    video: "https://www.youtube.com/embed/BrdtjmRDNiE",
     image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
     availability: ["Story circle every Friday", "Student immersion days", "Collective-led custom sessions"]
   },
@@ -174,7 +194,7 @@ export const workshopCategoriesData = [
     details:
       "This category highlights how traditional methods can be adapted into refined, travel-ready keepsakes that still reflect regional identity and craft authenticity.",
     people: ["Mixed artisan cluster", "Visitor product curators"],
-    video: "https://www.youtube.com/embed/jNQXAC9IVRw",
+    video: "https://www.youtube.com/embed/PijlJaY213k",
     image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80",
     availability: ["By curated appointment", "Small group product sessions", "Retail insight add-on available"]
   },
@@ -185,7 +205,7 @@ export const workshopCategoriesData = [
     details:
       "Designed for students, visitors, and heritage learners, these workshops combine live demonstration with oral narratives and guided reflection.",
     people: ["KalaSaathi facilitators", "Artisan storytellers"],
-    video: "https://www.youtube.com/embed/ysz5S6PUM-U",
+    video: "https://www.youtube.com/embed/uurepZrTu1k",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     availability: ["College modules available", "Heritage walk tie-ins", "Best for guided cohorts"]
   }
