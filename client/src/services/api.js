@@ -35,7 +35,33 @@ export const getAnalytics = () =>
 export const trackVisitor = (payload) => safe(() => api.post("/visitors/track", payload), { success: true });
 export const synthesizeSpeech = (payload) => safe(() => api.post("/tts/speak", payload), null);
 
-const normalizeCode = (code = "") => code.trim().toUpperCase();
+const extractCodeFromInput = (value = "") => {
+  const input = value.trim();
+  if (!input) {
+    return "";
+  }
+
+  if (/^https?:\/\//i.test(input)) {
+    try {
+      const parsed = new URL(input);
+      const fromQuery = parsed.searchParams.get("verify");
+      if (fromQuery) {
+        return fromQuery;
+      }
+      const pathSegments = parsed.pathname.split("/").filter(Boolean);
+      const fromPath = pathSegments[pathSegments.length - 1];
+      if (fromPath) {
+        return fromPath;
+      }
+    } catch {
+      return input;
+    }
+  }
+
+  return input;
+};
+
+const normalizeCode = (code = "") => extractCodeFromInput(code).trim().toUpperCase();
 
 export const verifyAuthenticityCode = async (code) => {
   const normalized = normalizeCode(code);
