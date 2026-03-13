@@ -17,6 +17,11 @@ export const artisanSeed = [
       lat: 17.4964,
       lng: 82.7756
     },
+    authenticity: {
+      code: "VISA-ETI-2026-LD01",
+      origin: "Etikoppaka, Anakapalli district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     gallery: [
       "https://images.unsplash.com/photo-1517816428104-797678c7cf0e?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7?auto=format&fit=crop&w=900&q=80",
@@ -46,6 +51,11 @@ export const artisanSeed = [
     coords: {
       lat: 17.8146,
       lng: 83.2167
+    },
+    authenticity: {
+      code: "VISA-CHP-2026-SA02",
+      origin: "Pendurthi, Visakhapatnam, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
     },
     gallery: [
       "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=80",
@@ -77,6 +87,11 @@ export const artisanSeed = [
       lat: 18.3274,
       lng: 82.8808
     },
+    authenticity: {
+      code: "VISA-BMB-2026-JR03",
+      origin: "Araku Valley, Alluri Sitharama Raju district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
+    },
     gallery: [
       "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80",
@@ -106,6 +121,11 @@ export const artisanSeed = [
     coords: {
       lat: 17.9285,
       lng: 82.6036
+    },
+    authenticity: {
+      code: "VISA-TRB-2026-SK04",
+      origin: "Paderu, Alluri Sitharama Raju district, Andhra Pradesh",
+      issuedBy: "VISAKRUTHI Artisan Registry"
     },
     gallery: [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
