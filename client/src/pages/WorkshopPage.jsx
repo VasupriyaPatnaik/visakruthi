@@ -58,7 +58,7 @@ export default function WorkshopPage() {
         ))}
       </div>
 
-      <form onSubmit={handleSubmit} className="mesh-border card-surface mt-12 rounded-[2rem] p-8">
+      <form onSubmit={handleSubmit} className="mesh-border card-surface mt-12 rounded-4xl p-8">
         <div className="grid gap-5 md:grid-cols-2">
           <input
             required
