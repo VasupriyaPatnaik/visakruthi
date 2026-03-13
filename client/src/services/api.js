@@ -34,3 +34,21 @@ export const getAnalytics = () =>
   });
 export const trackVisitor = (payload) => safe(() => api.post("/visitors/track", payload), { success: true });
 export const synthesizeSpeech = (payload) => safe(() => api.post("/tts/speak", payload), null);
+
+const normalizeCode = (code = "") => code.trim().toUpperCase();
+
+export const verifyAuthenticityCode = async (code) => {
+  const normalized = normalizeCode(code);
+  const fallbackMatch = demoArtisans.find((artisan) => normalizeCode(artisan.authenticity?.code) === normalized);
+  const fallback = fallbackMatch
+    ? {
+        valid: true,
+        artisanId: fallbackMatch.id,
+        artisanName: fallbackMatch.name,
+        craftType: fallbackMatch.craftType,
+        origin: fallbackMatch.authenticity?.origin
+      }
+    : { valid: false };
+
+  return safe(() => api.get(`/artisans/verify/${encodeURIComponent(normalized)}`), fallback);
+};
