@@ -1,11 +1,11 @@
-import founderSai from "../assets/founder-sai.svg";
+import josh from "../assets/josh.jpg";
 import vasp from "../assets/vasp.jpg";
 
 export const founders = [
   {
     name: "Sai Joshitha Palavalasa",
     role: "Founder",
-    image: founderSai,
+    image: josh,
     note: "Designs the platform vision around cultural preservation, storytelling, and community visibility."
   },
   {
